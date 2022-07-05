@@ -9,20 +9,21 @@ h1{
 }
 .top-section{
     display: flex;
-    margin-top: 40px;
+    margin: 40px 0px;
 }
 .orange-color{
     color: orange;
 }
 .half-weight{
     width: 50%;
-    margin: 10px;
     padding-left: 7%;
+    padding-right: 7%;
     
 }
 img{
-    width: 100%;
+    width: 80%;
 }
+
 .order-button{
     color: white;
     background-image: linear-gradient(orange,tomato);
@@ -32,33 +33,59 @@ img{
 }
 .middle-section{
     display: flex;
+    width: 100%;
     margin-top: 50px;
+    margin: 0 auto;
     background-image: url("images/shapes/7.png");
     background-repeat: no-repeat;
     background-size: auto;
 }
+#person-image {
+    width: 45%;
+}
 .recipie-center{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .my-recipie{
     width: 100%;
     margin-left: 6%;
     margin-right: 6%;
     padding: 10px;
-    box-shadow: 5px 5px 40px gray;
+    box-shadow: 2px 2px 20px gray;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 .subscriber-section{
     display: flex;
     margin-top: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .subscriber{
     width: 20%;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 5px;
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+footer h4{
+    color:gray;
+}
+footer small{
+    color: aliceblue;
+
 }
