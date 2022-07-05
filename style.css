@@ -7,9 +7,9 @@ h1{
     font-size: 40px;
     
 }
-section{
+.top-section{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .orange-color{
     color: orange;
@@ -17,10 +17,10 @@ section{
 .half-weight{
     width: 50%;
     margin: 10px;
-    padding-left: 20px;
-    padding-right: 0px;
+    padding-left: 7%;
+    
 }
-.half-weight img{
+img{
     width: 100%;
 }
 .order-button{
@@ -29,4 +29,36 @@ section{
     text-decoration: none;
     padding: 10px 25px;
     border-radius: 15px;
+}
+.middle-section{
+    display: flex;
+    margin-top: 50px;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.recipie-center{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.my-recipie{
+    width: 100%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 10px;
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.subscriber-section{
+    display: flex;
+    margin-top: 30px;
+}
+.subscriber{
+    width: 20%;
+    margin: 5%;
+    padding: 5px;
 }
